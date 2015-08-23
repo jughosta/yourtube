@@ -1,19 +1,23 @@
 {
-  "name": "yourtube",
-  "version": "1.0.0",
-  "description": "Browser extension to remove banners from Youtube",
-  "scripts": {
-    "test": "./node_modules/.bin/jshint --reporter node_modules/jshint-stylish/index.js ./ && ./node_modules/.bin/jscs ./",
-    "build": "./node_modules/.bin/gulp build"
-  },
-  "devDependencies": {
-    "crx": "^3.0.2",
-    "del": "^1.2.0",
-    "gulp": "^3.9.0",
-    "gulp-json-editor": "^2.2.1",
-    "jscs": "^1.13.1",
-    "jshint": "^2.8.0",
-    "jshint-stylish": "^2.0.1",
-    "run-sequence": "^1.1.2"
-  }
+	"name": "yourtube",
+	"version": "1.0.0",
+	"description": "Browser extension to remove banners from Youtube",
+	"scripts": {
+		"test": "./node_modules/.bin/jshint --reporter node_modules/jshint-stylish/index.js ./ && ./node_modules/.bin/jscs ./",
+		"build": "./node_modules/.bin/gulp build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JuliaRechkunova/yourtube.git"
+	},
+	"devDependencies": {
+		"crx": "^3.0.2",
+		"del": "^1.2.0",
+		"gulp": "^3.9.0",
+		"gulp-json-editor": "^2.2.1",
+		"jscs": "^1.13.1",
+		"jshint": "^2.8.0",
+		"jshint-stylish": "^2.0.1",
+		"run-sequence": "^1.1.2"
+	}
 }
