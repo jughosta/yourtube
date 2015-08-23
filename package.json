@@ -1,6 +1,6 @@
 {
 	"name": "yourtube",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Browser extension to remove banners from Youtube",
 	"scripts": {
 		"test": "./node_modules/.bin/jshint --reporter node_modules/jshint-stylish/index.js ./ && ./node_modules/.bin/jscs ./",
