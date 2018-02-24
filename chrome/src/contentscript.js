@@ -13,6 +13,10 @@
 		banners.push(document.getElementById('header'));
 		banners.push(document.getElementById('watch7-sidebar-ads'));
 		banners.push(document.querySelector('#player-api .video-ads'));
+
+		banners.push(document.getElementById('masthead-ad'));
+		banners.push(document.querySelector('.video-ads'));
+		banners.push(document.getElementById('player-ads'));
 		return banners;
 	};
 
